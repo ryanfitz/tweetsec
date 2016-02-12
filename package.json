@@ -39,6 +39,7 @@
     ]
   },
   "dependencies": {
-    "lodash": "^4.3.0"
+    "lodash": "^4.3.0",
+    "word-list": "^1.0.1"
   }
 }
