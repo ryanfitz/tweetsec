@@ -4,4 +4,6 @@ node_js:
   - "4"
   - "5"
 
+after_success: make coveralls
+
 sudo: false
