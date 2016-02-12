@@ -37,3 +37,9 @@ test('return empty string when given empty string', (t) => {
 
   t.is(wordReplacer.replace(''), '');
 });
+
+test('replaces nothing for n00bsb00bs 456', (t) => {
+  t.plan(1);
+
+  t.is(wordReplacer.replace('n00bsb00bs 456'), 'n00bsb00bs 456');
+});
