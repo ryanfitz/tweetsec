@@ -20,3 +20,8 @@ Only node version 5 is supported and tested against.
 ```
   $ make test
 ```
+
+## Notes
+
+Dictionary used for lookup is [word-list](https://github.com/sindresorhus/word-list).
+The dictionary includes `na` as a word so the example password of `s0_0per 5nak3` has a strength of 40 instead of 44.
